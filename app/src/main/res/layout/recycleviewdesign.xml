@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="167dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FBFBFB"
+    android:backgroundTint="#FBFBFB"
+    android:elevation="2dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/recview">
+
+
+    <ImageView
+        android:layout_width="135dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="209dp"
+
+        android:src="@drawable/price"
+        android:id="@+id/pizzaImage"/>
+
+
+
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="127dp"
+            android:layout_height="19dp"
+            android:textColor="#222831"
+            android:layout_marginLeft="173dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="60dp"
+            android:text="Vetchina and gribbi"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="171dp"
+            android:layout_height="98dp"
+            android:id="@+id/description"
+            android:layout_marginLeft="173dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginRight="60dp"
+            android:textColor="#AAAAAD"
+            android:textStyle="normal"
+            android:text="this pizza is very delicious ek bar khaougey bar bar aouge
+agar bar bar "/>
+        <ImageView
+            android:layout_height="32dp"
+            android:layout_width="87dp"
+            android:viewportWidth="87"
+            android:viewportHeight="32"
+            android:text="от 345 p"
+            android:layout_marginStart="257dp"
+            android:layout_marginTop="119dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/price"
+            android:layout_marginBottom="16dp"
+            />
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
